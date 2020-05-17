@@ -10,7 +10,7 @@
  If you are interested in the topic and would like to read more about it you can read/watch the resources below.
 
  - Original research by [Craig Reynolds](http://www.red3d.com/cwr/boids/) from 1986
- - Recent video by [SmarterEveryDay](https://www.youtube.com/watch?v=4LWmRuB-uNU) on the topic
+ - Recent video by [SmarterEveryDay](https://www.youtube.com/watch?v=4LWmRuB-uNU)
 */
 //#-editable-code
 let fish = Team(of: 5000, coloration: .heading)

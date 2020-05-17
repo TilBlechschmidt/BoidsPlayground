@@ -3,7 +3,7 @@ simulation.configuration.compressionFactor = 1
 simulation.configuration.scale = 0.5
 //#-end-hidden-code
 /*:
- As previously mentioned you can interact with your pet fish by touching them. By default, this attracts them with a moderate force. You can try to split a swarm into multiple individual schools of fish or change its direction!
+ As previously mentioned you can interact with your pet by touching them. By default, this attracts them with a moderate force. You can try to split a swarm into multiple individual schools of fish or change its direction!
 
  This force, like many other things, can be configured to behave differently! You can change its strength and radius like this (those are the defaults):
  ```
@@ -32,4 +32,4 @@ addForces {
 }
 //#-end-editable-code
 
-//: When you have played with your fish head to the [next page](@next) to learn more on how you can change the environment!
+//: When you have played with your fish head to the [next page](@next) to learn more on how you can change the environment of the simulation!

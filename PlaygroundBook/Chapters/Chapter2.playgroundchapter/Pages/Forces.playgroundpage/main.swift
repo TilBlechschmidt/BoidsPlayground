@@ -20,7 +20,7 @@ simulation.configuration.scale = 0.5
  }
  ```
 
- * Experiment: Try making the two teams flock and one avoid the other to prevent them from just swimming through each other!
+ * Experiment: Try making the two teams flock and avoid each other to prevent them from swimming through each other!
  */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)

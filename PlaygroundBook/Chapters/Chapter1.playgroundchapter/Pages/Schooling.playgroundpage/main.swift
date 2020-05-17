@@ -21,7 +21,7 @@ func align() {
 //#-end-hidden-code
 //#-code-completion(everything, hide)
 /*:
- To give the fish on the right some purpose in life lets provide them with some more rules!
+ To give your fish some purpose in life lets provide them with some more rules!
 
  * Experiment:
  Below are some rules you can experiment with - try enabling different ones and look at the result. Remember that you can slowly step through your code to enable the rules one after another by pressing the gauge on the bottom left of the fish tank!

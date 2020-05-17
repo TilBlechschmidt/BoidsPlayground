@@ -13,9 +13,6 @@ var config = SimulationConfiguration()
 config.compressionFactor = 0.5
 config.scale = 0.75
 
-config.visualiseForces = true
-config.visualisationForces = [.separation]
-
 var interaction = InteractionConfiguration()
 
 let bigTeam = Team(of: 25, size: 0.75)

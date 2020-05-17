@@ -10,6 +10,8 @@ simulation.configuration.scale = 0.75
  let team1 = Team(of: 250)
  add(team1)
  ```
+ * Important: You should **not** create teams bigger than 5.000 fish (it fries the simulation)!
+
  You can repeat this with different names multiple times and get multiple teams! In addition to the number of fish, there is a variety of other parameters that can be tweaked. Have a play with them below!
 
  * Note: All teams you add will have the three rules we previously used enabled by default on this page. You will learn how to do this yourself in a bit.
@@ -43,8 +45,6 @@ add(weirdFish)
 
 /*:
  You may notice that your teams of fish are currently not interacting with each other. They are not even moving out of the way of the other fish when they pass through them! That happens because all rules we added only affect fish in the same team. Let's change that on the [next page](@next)!
-
- * Important: You should **not** create teams bigger than 5.000 fish (it fries the simulation)!
 */
 //#-hidden-code
 simulation.interaction.teams.forEach {

@@ -36,4 +36,4 @@ addForces {
 //#-end-editable-code
 
 
-//: On the [next page](@next) you will learn how to change what happens when you touch your fish
+//: On the [next page](@next) you will learn how to change what happens when you touch your fish.

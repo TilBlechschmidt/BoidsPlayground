@@ -15,6 +15,7 @@
 //#-code-completion(identifier, show, flee(from:configuration:), align(with:configuration:), chase(:configuration:), becomePredator(of:))
 //#-code-completion(identifier, show, init(strength:radius:), init(strength:radius:speedLimit:fieldOfView:scaleWithPeers:))
 //#-code-completion(identifier, show, simulation, configuration, simulationSpeed, scale, visualiseForces, visualisationBoidID, visualisationForces, compressionFactor, touchRadius, touchStrength)
+//#-code-completion(identifier, show, heading, velocity, fixedColor, angleOfAttack)
 //#-editable-code
 simulation.configuration.compressionFactor = 1
 simulation.configuration.scale = 0.5

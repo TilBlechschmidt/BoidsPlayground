@@ -2,7 +2,7 @@
 simulation.configuration.simulationSpeed = 0.75
 //#-end-hidden-code
 /*:
- The final showcase of emergent behavior will be obstacle avoidance! In the case of this simulation, the walls (and waves) are obstacles that have to be avoided. Below is an example of a **very** big swarm of fish that barely fits into the given space.
+ The final showcase of emergent behavior will be obstacle avoidance! In the case of this simulation, the boundaries and waves are obstacles that have to be avoided. Below is an example of a **very** big swarm of fish that barely fits into the given space.
 
  * Experiment:
  Look closely how the swarm moves towards one corner of the tank and as the pressure increases a critical point is reached where seemingly the whole swarm changes direction at once. This happens even though some fish are far away from the wall and don't even know why they are changing direction!
@@ -16,6 +16,7 @@ simulation.configuration.simulationSpeed = 0.75
 //#-code-completion(identifier, show, flee(from:configuration:), align(with:configuration:), chase(:configuration:), becomePredator(of:))
 //#-code-completion(identifier, show, init(strength:radius:), init(strength:radius:speedLimit:fieldOfView:scaleWithPeers:))
 //#-code-completion(identifier, show, simulation, configuration, simulationSpeed, scale, visualiseForces, visualisationBoidID, visualisationForces, compressionFactor, touchRadius, touchStrength)
+//#-code-completion(identifier, show, heading, velocity, fixedColor, angleOfAttack)
 //#-editable-code
 let fish = Team(of: 2500, coloration: .heading)
 add(fish)
