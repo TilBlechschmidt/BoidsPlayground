@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Manipulating the Simulation</string>
+	<key>Pages</key>
+	<array>
+		<string>Teams.playgroundpage</string>
+		<string>Forces.playgroundpage</string>
+		<string>Parameters.playgroundpage</string>
+		<string>Interaction.playgroundpage</string>
+		<string>Environment.playgroundpage</string>
+	</array>
+</dict>
+</plist>
