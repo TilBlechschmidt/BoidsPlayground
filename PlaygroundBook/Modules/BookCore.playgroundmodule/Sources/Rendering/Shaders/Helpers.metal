@@ -142,6 +142,10 @@ inline half4 base_color(uint teamID) {
             return half4(110.0 / 256.0, 186.0 / 256.0, 170.0 / 256.0, 0);
         case 1:
             return half4(254.0 / 256.0, 151.0 / 256.0, 79.0 / 256.0, 0);
+        case 2:
+            return half4(20.0 / 256.0, 250.0 / 256.0, 6.0 / 256.0, 0);
+        case 3:
+            return half4(250.0 / 256.0, 6.0 / 256.0, 0, 0);
         default:
             return half4(47 / 256, 53 / 256, 66 / 256, 1.0);
     }

@@ -52,6 +52,10 @@ class DragGestureRecognizer: UIGestureRecognizer {
         touchesChanged()
     }
 
+    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent) {
+        self.touchesEnded(touches, with: event)
+    }
+
     func touchesChanged() {
         let normalizedTouches = activeTouches.map {
             transformCoordinateSpace(of: $0.location(in: self.view))

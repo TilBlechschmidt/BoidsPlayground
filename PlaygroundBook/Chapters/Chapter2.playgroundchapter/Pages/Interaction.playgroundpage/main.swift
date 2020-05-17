@@ -10,9 +10,8 @@ simulation.configuration.scale = 0.5
  touchStrength = 15
  touchRadius = 5
  ```
- Try adding those to the code and playing around with them!
 
- **Hint:** What do you expect a negative strength to do?
+ * Experiment: Try adding the interaction and play around with the values! What do you expect a negative strength to do?
  */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)

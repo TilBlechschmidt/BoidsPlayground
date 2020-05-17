@@ -23,12 +23,13 @@ func align() {
 /*:
  To give the fish on the right some purpose in life lets provide them with some more rules!
 
+ * Experiment:
  Below are some rules you can experiment with - try enabling different ones and look at the result. Remember that you can slowly step through your code to enable the rules one after another by pressing the gauge on the bottom left of the fish tank!
 
 */
 
 /*:
- ## Cohesion
+ ## 🧲 Cohesion
 
  First and foremost lets keep the fish together in one place!
 
@@ -44,7 +45,7 @@ func align() {
 //#-end-editable-code
 
 /*:
- ## Separation
+ ## 💥 Separation
 
  You might notice that your fish are now clumped together in a little blob. You can use a second rule to keep a distance to their neighbors and make the swarm a bit more spread out and realistic!
 
@@ -60,7 +61,7 @@ func align() {
 //#-end-editable-code
 
 /*:
- ## Alignment
+ ## 🏹 Alignment
 
  Now you have a swarm of fish but they are just staying in one place and are still not behaving quite like the real deal. Let's add one final rule to unleash the magic and create a beautiful school!
 
@@ -74,5 +75,6 @@ func align() {
 //#-editable-code
 
 //#-end-editable-code
+
 
 //: When you have finished playing around with these rules you can turn to the [next page](@next) to visualize some of the rules that we added!

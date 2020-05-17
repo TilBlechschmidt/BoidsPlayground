@@ -2,7 +2,10 @@
 simulation.configuration.simulationSpeed = 0.75
 //#-end-hidden-code
 /*:
- The final showcase of emergent behavior will be obstacle avoidance! In the case of this simulation, the walls (and waves) are obstacles that have to be avoided. Below is an example of a **very** big swarm of fish that barely fits into the given space. Look closely how the swarm moves towards one corner of the tank and as the pressure increases a critical point is reached where seemingly the whole swarm changes direction at once. This happens even though some fish are far away from the wall and don't even know why they are changing direction!
+ The final showcase of emergent behavior will be obstacle avoidance! In the case of this simulation, the walls (and waves) are obstacles that have to be avoided. Below is an example of a **very** big swarm of fish that barely fits into the given space.
+
+ * Experiment:
+ Look closely how the swarm moves towards one corner of the tank and as the pressure increases a critical point is reached where seemingly the whole swarm changes direction at once. This happens even though some fish are far away from the wall and don't even know why they are changing direction!
 */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)

@@ -27,6 +27,8 @@
 	<array>
 		<string>BookAPI</string>
 	</array>
+	<key>ImageReference</key>
+	<string>Cover.png</string>
 	<key>UserModuleMode</key>
 	<string>Limited</string>
 	<key>SupportsDarkMode</key>

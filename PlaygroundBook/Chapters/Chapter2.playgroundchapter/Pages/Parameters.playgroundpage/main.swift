@@ -12,6 +12,8 @@ simulation.configuration.scale = 0.5
  - **speedLimit** limit the maximum acceleration the force can create
  - **fieldOfView** limits the vision (from 0 - 1)
  - **scaleWithPeers** whether or not the force scales with the number of fish it takes into account
+
+ * Experiment: Add configurations with varying values to the forces and see how it affects the fish! Strength is usually between 3 - 6 and radius between 0.5 - 7 by default but you can try different values as you like.
  */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
@@ -33,27 +35,5 @@ addForces {
 }
 //#-end-editable-code
 
-
-/*:
- ### Default values
- Below you can see the default values for all three forces that are applied if you omit the `configuration:` parameter
- ```
- // Separation (flee)
- .init(strength: 6, radius: 0.5, scaleWithPeers: true)
-
- // Cohesion (chase)
- .init(strength: 5, radius: 5)
-
- // Align
- .init(strength: 3, radius: 7)
- ```
-
- Strength and radius is required while the others are optional. Here are the defaults:
- ```
- speedLimit = 50
- fieldOfView = 1
- scaleWithPeers = false
- ```
-*/
 
 //: On the [next page](@next) you will learn how to change what happens when you touch your fish

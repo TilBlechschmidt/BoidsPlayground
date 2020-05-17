@@ -8,7 +8,9 @@
  - **scale** modifier for the size of the simulation
  - **simulationSpeed** multiplier for the speed of the simulation
 
- You already learned about some others like `touchRadius`, `touchStrength`, and various visualisation flags on previous pages and have used shorthands to access them!
+ You already learned about some others like `touchRadius`, `touchStrength`, and various visualisation flags on previous pages and have previously used shorthands to access them!
+
+ * Experiment: Try changing various parameters of the simulation and see how the fish react to it.
 */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)

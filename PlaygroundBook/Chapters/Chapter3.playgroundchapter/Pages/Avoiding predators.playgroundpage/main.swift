@@ -1,7 +1,10 @@
 /*:
  Previously **emergent behavior** was mentioned. Let's have a look at a specific example. Picture a big school of fish and a predator. When the predator gets close to the fish only a small amount of fish can actually see him and take evasive actions. Now think about how their neighbors in the swarm react to this. After a bit of time, the whole swarm changes direction and even splits to avoid the predator.
 
- Below you can find such a scenario with a predator and prey and the corresponding forces. To visualize the direction change of the swarm the coloration was set to `.velocity`. Try using touch interaction to make the predator attack the swarm head-on to see the "wave" of direction-change propagating through the swarm best. Make sure to also try changing the coloration to `.heading`!
+ Below you can find such a scenario with a predator and prey and the corresponding forces. To visualize the direction change of the swarm the coloration was set to `.velocity`.
+
+ * Experiment:
+ Try using touch interaction to make the predator attack the swarm head-on to see the "wave" of direction-change propagating through the swarm best. Make sure to also try changing the coloration to `.heading`!
 */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)

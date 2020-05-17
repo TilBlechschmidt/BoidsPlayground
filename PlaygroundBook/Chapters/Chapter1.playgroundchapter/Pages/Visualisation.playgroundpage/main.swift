@@ -27,6 +27,7 @@ func align() {
 
  For now, let's visualize how far each rule is actually reaching! First off we add our three rules from before and then choose which forces we want to show by setting `visualisedForces`.
 
+ * Experiment:
  Try visualizing different forces by adding `.separation`, `.cohesion` and `.alignment` to the array (you can add multiple by putting a comma in between)!
 */
 //#-code-completion(everything, hide)

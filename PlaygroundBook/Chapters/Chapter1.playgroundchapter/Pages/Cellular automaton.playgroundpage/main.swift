@@ -1,3 +1,4 @@
+//#-code-completion(everything, hide)
 /*:
  Large swarms of fish or birds are complex entities that are comprised of hundreds if not thousands of individuals.
  Each of these is following a set of behavioral rules. One might think that such a rule could be to try and follow a leading bird.

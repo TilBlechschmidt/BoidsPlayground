@@ -18,9 +18,13 @@ fileprivate func generateID() -> Team.ID {
 }
 
 public enum BoidColoration: String, Codable, CaseIterable {
+    /// Random, fixed color
     case fixedColor = "boid_fragment_color"
+    /// Deviation of current acceleration from the velocity
     case angleOfAttack = "boid_fragment_angleOfAttack"
+    /// Velocity direction interpreted as hue
     case heading = "boid_fragment_heading"
+    /// Current speed
     case velocity = "boid_fragment_acceleration"
 }
 
