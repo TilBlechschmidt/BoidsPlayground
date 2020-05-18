@@ -1,2 +1,2 @@
 # Boids - WWDC2020 Student Challenge submission
-This playground is my submission to the Apple WWDC2020 Student Challenge. It contains a simulation with cute little fish that explains swarm/emergent behavior! You can download it under releases, however they might not work on anything other than the >=2018 iPad Pro's. If you want to try it on an older iPad you should download the repo and build it yourself!
+This playground is my submission to the Apple WWDC2020 Student Challenge. It contains a simulation with cute little fish that explains swarm/emergent behavior! You can download it under releases.
